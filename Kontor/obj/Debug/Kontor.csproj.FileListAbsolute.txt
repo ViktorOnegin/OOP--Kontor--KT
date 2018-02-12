@@ -1,0 +1,7 @@
+C:\Users\vikto\source\repos\Kontor\Kontor\bin\Debug\Kontor.exe.config
+C:\Users\vikto\source\repos\Kontor\Kontor\bin\Debug\Kontor.exe
+C:\Users\vikto\source\repos\Kontor\Kontor\bin\Debug\Kontor.pdb
+C:\Users\vikto\source\repos\Kontor\Kontor\obj\Debug\Kontor.csprojResolveAssemblyReference.cache
+C:\Users\vikto\source\repos\Kontor\Kontor\obj\Debug\Kontor.csproj.CoreCompileInputs.cache
+C:\Users\vikto\source\repos\Kontor\Kontor\obj\Debug\Kontor.exe
+C:\Users\vikto\source\repos\Kontor\Kontor\obj\Debug\Kontor.pdb
