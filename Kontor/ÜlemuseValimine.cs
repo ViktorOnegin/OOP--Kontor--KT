@@ -8,7 +8,7 @@ namespace Kontor
 {
     class ÜlemuseValimine : Töötajad
     {
-        public virtual void Töötaja()
+        public virtual void KontoriTöötaja()
         {
             Console.WriteLine(Name);
             Console.WriteLine("Te võite töötada järgmistes ruumides: ");

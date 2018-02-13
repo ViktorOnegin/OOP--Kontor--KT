@@ -26,32 +26,32 @@ namespace Kontor
             {
                 case 1:
                     NooremArendajaValimine noorarendaja = new NooremArendaja();
-                    noorarendaja.Töötaja();
+                    noorarendaja.KontoriTöötaja();
                     break;
 
                 case 2:
                     VanemArendajaValimine vanemarendaja = new VanemArendaja();
-                    vanemarendaja.Töötaja();
+                    vanemarendaja.KontoriTöötaja();
                     break;
 
                 case 3:
                     TavaKoristajaValimine tavaKoristaja = new TavaKoristaja();
-                    tavaKoristaja.Töötaja();
+                    tavaKoristaja.KontoriTöötaja();
                     break;
 
                 case 4:
                     SpetsiaalkoristajaValimine spetsiaalneKoristaja = new SpetsiaalneKoristaja();
-                    spetsiaalneKoristaja.Töötaja();
+                    spetsiaalneKoristaja.KontoriTöötaja();
                     break;
 
                 case 5:
                     ÜlemuseValimine ülemus = new Ülemus();
-                    ülemus.Töötaja();
+                    ülemus.KontoriTöötaja();
                     break;
 
                 case 6:
                     Andmetöötleja andmetöötleja = new Andmetöötleja();
-                    andmetöötleja.Töötaja();
+                    andmetöötleja.KontoriTöötaja();
                     break;
             }
             

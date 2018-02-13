@@ -8,14 +8,15 @@ namespace Kontor
 {
     class TavaKoristaja : TavaKoristajaValimine
     {
-        public override void Töötaja()
+        public override void KontoriTöötaja()
         {
+            base.KontoriTöötaja();
+
             Name = "Tavakoristaja";
             Arendajaruum = true;
             Ülemuseruum = false;
             köök = true;
             Andmetöötlejaruum = true;
-            base.Töötaja();
         }
     }
 }

@@ -8,14 +8,15 @@ namespace Kontor
 {
     class NooremArendaja : NooremArendajaValimine
     {
-        public override void Töötaja()
+        public override void KontoriTöötaja()
         {
+            base.KontoriTöötaja();
+
             Name = "NooremArendaja";
             Arendajaruum = true;
             Ülemuseruum = false;
             köök = true;
             Andmetöötlejaruum = true;
-            base.Töötaja();
         }
     }
 }

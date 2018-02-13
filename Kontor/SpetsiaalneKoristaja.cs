@@ -8,9 +8,9 @@ namespace Kontor
 {
     class SpetsiaalneKoristaja : SpetsiaalkoristajaValimine
     {
-        public override void Töötaja()
+        public override void KontoriTöötaja()
         {
-            base.Töötaja();
+            base.KontoriTöötaja();
 
             Name = "SpetsiaalneKoristaja";
             Arendajaruum = true;

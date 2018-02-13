@@ -8,14 +8,15 @@ namespace Kontor
 {
     class Ülemus : ÜlemuseValimine
     {
-        public override void Töötaja()
+        public override void KontoriTöötaja()
         {
+            base.KontoriTöötaja();
+
             Name = "Ülemus";
             Arendajaruum = false;
             Ülemuseruum = true;
             köök = true;
             Andmetöötlejaruum = false;
-            base.Töötaja();
         }
     }
 }

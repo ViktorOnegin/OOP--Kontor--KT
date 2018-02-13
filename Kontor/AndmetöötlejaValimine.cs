@@ -8,7 +8,7 @@ namespace Kontor
 {
     class AndmetöötlejaValimine : Töötajad
     {
-        public virtual void Töötaja()
+        public virtual void KontoriTöötaja()
         {
             Console.WriteLine(Name);
 

@@ -8,14 +8,15 @@ namespace Kontor
 {
     class Andmetöötleja : AndmetöötlejaValimine
     {
-        public override void Töötaja()
+        public override void KontoriTöötaja()
         {
+            base.KontoriTöötaja();
+
             Name = "Andmetöötleja";
             Arendajaruum = false;
             Ülemuseruum = false;
             köök = true;
             Andmetöötlejaruum = true;
-            base.Töötaja();
         }
     }
 }

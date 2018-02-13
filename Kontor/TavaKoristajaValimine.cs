@@ -8,7 +8,7 @@ namespace Kontor
 {
     class TavaKoristajaValimine : Töötajad
     {
-        public virtual void Töötaja()
+        public virtual void KontoriTöötaja()
         {
             Console.WriteLine(Name);
 
